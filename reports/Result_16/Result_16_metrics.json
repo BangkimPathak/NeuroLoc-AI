@@ -1,0 +1,40 @@
+{
+  "test_case_number": 16,
+  "patient_id": "PATIENT-TEST-16-ME",
+  "image_source": "Testing/meningioma/Te-aug-me_3.jpg",
+  "ground_truth": "meningioma",
+  "description": "Sphenoid ridge dural lesion",
+  "predicted_class": "pituitary",
+  "confidence": 0.5199553370475769,
+  "epistemic_entropy": 1.0031794309616089,
+  "epistemic_variance": 0.0339004248380661,
+  "triage_tier": "TIER_3_CRITICAL_UNCERTAINTY",
+  "triage_status": "TRIAGE_REQUIRED",
+  "triage_recommendation": "URGENT REVIEW: High model disagreement across Monte Carlo forward passes. Scan features deviate from core distribution. Mandatory evaluation by attending neuroradiologist.",
+  "has_tumor_detection": true,
+  "tumor_centroid_xy": [
+    34,
+    81
+  ],
+  "bounding_box_x1_y1_x2_y2": [
+    0,
+    10,
+    81,
+    209
+  ],
+  "in_head_guarantee_satisfied": true,
+  "anatomical_localization": {
+    "laterality": "Right Hemisphere",
+    "compartment": "Sellar / Suprasellar Cistern",
+    "lobar_zone": "Hypophyseal Fossa (Sella Turcica)",
+    "norm_x": 0.15178571428571427,
+    "norm_y": 0.36160714285714285,
+    "narrative": "Focal space-occupying lesion localized to the Sellar / Suprasellar Cistern (right-sided). Characteristic sellar expansion with potential superior extension toward the optic chiasm. Classic imaging hallmark of Pituitary Neuroendocrine Tumor (PitNET) / Pituitary Macroadenoma."
+  },
+  "class_probabilities": {
+    "glioma": 0.10053861886262894,
+    "meningioma": 0.3640954792499542,
+    "notumor": 0.015410557389259338,
+    "pituitary": 0.5199553370475769
+  }
+}

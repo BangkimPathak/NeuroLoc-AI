@@ -1,0 +1,40 @@
+{
+  "test_case_number": 13,
+  "patient_id": "PATIENT-TEST-13-GL",
+  "image_source": "Testing/glioma/Te-gl_6.jpg",
+  "ground_truth": "glioma",
+  "description": "Deep cerebral hemisphere tumor",
+  "predicted_class": "glioma",
+  "confidence": 0.7352973222732544,
+  "epistemic_entropy": 0.8271849751472473,
+  "epistemic_variance": 0.01650860346853733,
+  "triage_tier": "TIER_3_CRITICAL_UNCERTAINTY",
+  "triage_status": "TRIAGE_REQUIRED",
+  "triage_recommendation": "URGENT REVIEW: High model disagreement across Monte Carlo forward passes. Scan features deviate from core distribution. Mandatory evaluation by attending neuroradiologist.",
+  "has_tumor_detection": true,
+  "tumor_centroid_xy": [
+    106,
+    24
+  ],
+  "bounding_box_x1_y1_x2_y2": [
+    63,
+    0,
+    146,
+    56
+  ],
+  "in_head_guarantee_satisfied": true,
+  "anatomical_localization": {
+    "laterality": "Medial / Midline",
+    "compartment": "Supratentorial Compartment",
+    "lobar_zone": "Medial / Midline - Frontal Lobe",
+    "norm_x": 0.4732142857142857,
+    "norm_y": 0.10714285714285714,
+    "narrative": "Focal lesion centered within the Medial / Midline - Frontal Lobe (anterior frontal parenchyma / convexity). Imaging features demonstrate infiltrative intra-axial parenchymal mass with surrounding vasogenic edema and local mass effect, consistent with radiological presentation of glioma."
+  },
+  "class_probabilities": {
+    "glioma": 0.7352973222732544,
+    "meningioma": 0.04419403523206711,
+    "notumor": 0.06082764267921448,
+    "pituitary": 0.1596810519695282
+  }
+}

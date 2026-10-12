@@ -1,0 +1,44 @@
+
+================================================================================
+  NEUROLOC-XAI: CLINICAL NEURO-RADIOLOGY DIAGNOSTIC REPORT
+================================================================================
+ACCESSION ID        : PATIENT-TEST-18-ME
+IMAGE PROTOCOL      : Brain MRI (T1-Gd / Contrast-Enhanced Multi-Slice)
+FRAMEWORK           : TensorFlow 2.x Bayesian Deep Inference Engine
+STATUS              : TRIAGE_REQUIRED [TIER_3_CRITICAL_UNCERTAINTY]
+--------------------------------------------------------------------------------
+I. PRIMARY DIAGNOSTIC IMPRESSION
+--------------------------------------------------------------------------------
+  * Predicted Pathology   : MENINGIOMA
+  * Bayesian Posterior p  : 68.15%  (95% CI: [37.77%, 87.52%])
+  * Epistemic Uncertainty : sigma^2 = 0.02577  (Monte Carlo T=30 forward passes)
+  * Total Entropy H(y|x)  : 0.8417 nats
+  * Knowledge Info Gain I : 0.0789 nats (Mutual Information)
+
+--------------------------------------------------------------------------------
+II. AUTOMATED CLINICAL TRIAGE DECISION
+--------------------------------------------------------------------------------
+  * Triage Status         : TRIAGE_REQUIRED
+  * Confidence Level      : TIER_3_CRITICAL_UNCERTAINTY
+  * Uncertainty Flags     :
+    [!] HIGH_EPISTEMIC_VARIANCE (sigma^2 = 0.0258 > 0.0150)
+    [!] HIGH_PREDICTIVE_ENTROPY (H = 0.8417 > 0.6000)
+    [!] LOW_PREDICTIVE_CONFIDENCE (p = 68.15% < 70.00%)
+  * Clinical Advisory     :
+    URGENT REVIEW: High model disagreement across Monte Carlo forward passes. Scan features deviate from core distribution. Mandatory evaluation by attending neuroradiologist.
+
+--------------------------------------------------------------------------------
+III. AUTOMATED NEURO-ANATOMICAL LOCALIZATION (Grad-CAM++ Salience)
+--------------------------------------------------------------------------------
+  * Laterality            : Right Hemisphere
+  * Cranial Compartment   : Supratentorial Compartment
+  * Regional Lobar Zone   : Right Hemisphere - Frontal Lobe
+  * Bounding Coordinates  : [xmin=0, ymin=26, xmax=62, ymax=127]
+  * Centroid Coordinates  : (x=29, y=72)
+
+  * Radiological Narrative:
+    "Focal lesion centered within the Right Hemisphere - Frontal Lobe (anterior frontal parenchyma / convexity). Imaging features demonstrate well-circumscribed dural-based extra-axial mass morphology with probable reactive hyperostosis/dural tail, consistent with radiological presentation of meningioma."
+================================================================================
+  DISCLAIMER: NeuroLoc-XAI is an investigational clinical decision-support tool.
+  Final diagnosis must be validated by a certified attending Neuroradiologist.
+================================================================================

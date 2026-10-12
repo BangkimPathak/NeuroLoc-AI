@@ -1,0 +1,12 @@
+tensorflow>=2.11.0
+numpy>=1.22.0
+opencv-python>=4.6.0
+scikit-learn>=1.0.0
+scipy>=1.8.0
+matplotlib>=3.5.0
+pillow>=9.0.0
+imagehash>=4.3.0
+kaggle>=1.5.12
+pydicom>=2.3.0
+nibabel>=4.0.0
+python-pptx>=1.0.0

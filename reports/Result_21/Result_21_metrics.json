@@ -1,0 +1,32 @@
+{
+  "test_case_number": 21,
+  "patient_id": "PATIENT-TEST-21-NO",
+  "image_source": "Testing/notumor/Te-no_2.jpg",
+  "ground_truth": "notumor",
+  "description": "Normal intracranial anatomy 2",
+  "predicted_class": "notumor",
+  "confidence": 0.9932962656021118,
+  "epistemic_entropy": 0.04586797207593918,
+  "epistemic_variance": 1.4833265595370904e-05,
+  "triage_tier": "TIER_1_HIGH_CONFIDENCE",
+  "triage_status": "AUTONOMOUS_VERIFIED",
+  "triage_recommendation": "CONFIDENT DIAGNOSIS: Consistent Bayesian convergence across all 30 stochastic passes. Autonomous diagnostic report approved for radiology review.",
+  "has_tumor_detection": false,
+  "tumor_centroid_xy": null,
+  "bounding_box_x1_y1_x2_y2": null,
+  "in_head_guarantee_satisfied": true,
+  "anatomical_localization": {
+    "laterality": "Bilateral / Non-focal",
+    "compartment": "Diffuse / Normal Parenchyma",
+    "lobar_zone": "No focal abnormality",
+    "norm_x": 0.5,
+    "norm_y": 0.5,
+    "narrative": "No focal space-occupying lesion or abnormal hyperintense enhancement identified within the cranial vault. Parenchymal architecture within normal anatomical limits."
+  },
+  "class_probabilities": {
+    "glioma": 0.00039919678238220513,
+    "meningioma": 0.002272041980177164,
+    "notumor": 0.9932962656021118,
+    "pituitary": 0.004032471217215061
+  }
+}

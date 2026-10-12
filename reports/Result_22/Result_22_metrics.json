@@ -1,0 +1,32 @@
+{
+  "test_case_number": 22,
+  "patient_id": "PATIENT-TEST-22-NO",
+  "image_source": "Testing/notumor/Te-no_3.jpg",
+  "ground_truth": "notumor",
+  "description": "Unremarkable axial brain MRI 3",
+  "predicted_class": "notumor",
+  "confidence": 0.9834820032119751,
+  "epistemic_entropy": 0.09619571268558502,
+  "epistemic_variance": 0.0003590505803003907,
+  "triage_tier": "TIER_1_HIGH_CONFIDENCE",
+  "triage_status": "AUTONOMOUS_VERIFIED",
+  "triage_recommendation": "CONFIDENT DIAGNOSIS: Consistent Bayesian convergence across all 30 stochastic passes. Autonomous diagnostic report approved for radiology review.",
+  "has_tumor_detection": false,
+  "tumor_centroid_xy": null,
+  "bounding_box_x1_y1_x2_y2": null,
+  "in_head_guarantee_satisfied": true,
+  "anatomical_localization": {
+    "laterality": "Bilateral / Non-focal",
+    "compartment": "Diffuse / Normal Parenchyma",
+    "lobar_zone": "No focal abnormality",
+    "norm_x": 0.5,
+    "norm_y": 0.5,
+    "narrative": "No focal space-occupying lesion or abnormal hyperintense enhancement identified within the cranial vault. Parenchymal architecture within normal anatomical limits."
+  },
+  "class_probabilities": {
+    "glioma": 0.011757735162973404,
+    "meningioma": 0.0007763012545183301,
+    "notumor": 0.9834820032119751,
+    "pituitary": 0.0039839716628193855
+  }
+}

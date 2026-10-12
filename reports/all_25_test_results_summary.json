@@ -1,0 +1,402 @@
+[
+  {
+    "test_num": 1,
+    "folder": "Result_1",
+    "gt": "pituitary",
+    "pred": "pituitary",
+    "match": true,
+    "confidence": 0.7771934270858765,
+    "tier": "TIER_3_CRITICAL_UNCERTAINTY",
+    "has_detection": true,
+    "centroid": [
+      159,
+      170
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_1\\Result_1.png"
+  },
+  {
+    "test_num": 2,
+    "folder": "Result_2",
+    "gt": "pituitary",
+    "pred": "pituitary",
+    "match": true,
+    "confidence": 0.6994218826293945,
+    "tier": "TIER_3_CRITICAL_UNCERTAINTY",
+    "has_detection": true,
+    "centroid": [
+      107,
+      58
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_2\\Result_2.png"
+  },
+  {
+    "test_num": 3,
+    "folder": "Result_3",
+    "gt": "pituitary",
+    "pred": "pituitary",
+    "match": true,
+    "confidence": 0.97343510389328,
+    "tier": "TIER_1_HIGH_CONFIDENCE",
+    "has_detection": true,
+    "centroid": [
+      103,
+      24
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_3\\Result_3.png"
+  },
+  {
+    "test_num": 4,
+    "folder": "Result_4",
+    "gt": "pituitary",
+    "pred": "pituitary",
+    "match": true,
+    "confidence": 0.97057044506073,
+    "tier": "TIER_1_HIGH_CONFIDENCE",
+    "has_detection": true,
+    "centroid": [
+      90,
+      42
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_4\\Result_4.png"
+  },
+  {
+    "test_num": 5,
+    "folder": "Result_5",
+    "gt": "pituitary",
+    "pred": "pituitary",
+    "match": true,
+    "confidence": 0.9756010174751282,
+    "tier": "TIER_1_HIGH_CONFIDENCE",
+    "has_detection": true,
+    "centroid": [
+      77,
+      66
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_5\\Result_5.png"
+  },
+  {
+    "test_num": 6,
+    "folder": "Result_6",
+    "gt": "pituitary",
+    "pred": "pituitary",
+    "match": true,
+    "confidence": 0.959659218788147,
+    "tier": "TIER_1_HIGH_CONFIDENCE",
+    "has_detection": true,
+    "centroid": [
+      111,
+      124
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_6\\Result_6.png"
+  },
+  {
+    "test_num": 7,
+    "folder": "Result_7",
+    "gt": "pituitary",
+    "pred": "pituitary",
+    "match": true,
+    "confidence": 0.9539148211479187,
+    "tier": "TIER_1_HIGH_CONFIDENCE",
+    "has_detection": true,
+    "centroid": [
+      145,
+      167
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_7\\Result_7.png"
+  },
+  {
+    "test_num": 8,
+    "folder": "Result_8",
+    "gt": "glioma",
+    "pred": "glioma",
+    "match": true,
+    "confidence": 0.4560354948043823,
+    "tier": "TIER_3_CRITICAL_UNCERTAINTY",
+    "has_detection": true,
+    "centroid": [
+      120,
+      48
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_8\\Result_8.png"
+  },
+  {
+    "test_num": 9,
+    "folder": "Result_9",
+    "gt": "glioma",
+    "pred": "meningioma",
+    "match": false,
+    "confidence": 0.6915245652198792,
+    "tier": "TIER_3_CRITICAL_UNCERTAINTY",
+    "has_detection": true,
+    "centroid": [
+      111,
+      92
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_9\\Result_9.png"
+  },
+  {
+    "test_num": 10,
+    "folder": "Result_10",
+    "gt": "glioma",
+    "pred": "glioma",
+    "match": true,
+    "confidence": 0.8876218199729919,
+    "tier": "TIER_1_HIGH_CONFIDENCE",
+    "has_detection": true,
+    "centroid": [
+      137,
+      120
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_10\\Result_10.png"
+  },
+  {
+    "test_num": 11,
+    "folder": "Result_11",
+    "gt": "glioma",
+    "pred": "glioma",
+    "match": true,
+    "confidence": 0.9533390998840332,
+    "tier": "TIER_1_HIGH_CONFIDENCE",
+    "has_detection": true,
+    "centroid": [
+      102,
+      107
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_11\\Result_11.png"
+  },
+  {
+    "test_num": 12,
+    "folder": "Result_12",
+    "gt": "glioma",
+    "pred": "glioma",
+    "match": true,
+    "confidence": 0.6078724265098572,
+    "tier": "TIER_3_CRITICAL_UNCERTAINTY",
+    "has_detection": true,
+    "centroid": [
+      117,
+      23
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_12\\Result_12.png"
+  },
+  {
+    "test_num": 13,
+    "folder": "Result_13",
+    "gt": "glioma",
+    "pred": "glioma",
+    "match": true,
+    "confidence": 0.7352973222732544,
+    "tier": "TIER_3_CRITICAL_UNCERTAINTY",
+    "has_detection": true,
+    "centroid": [
+      106,
+      24
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_13\\Result_13.png"
+  },
+  {
+    "test_num": 14,
+    "folder": "Result_14",
+    "gt": "meningioma",
+    "pred": "meningioma",
+    "match": true,
+    "confidence": 0.42058485746383667,
+    "tier": "TIER_3_CRITICAL_UNCERTAINTY",
+    "has_detection": true,
+    "centroid": [
+      25,
+      130
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_14\\Result_14.png"
+  },
+  {
+    "test_num": 15,
+    "folder": "Result_15",
+    "gt": "meningioma",
+    "pred": "meningioma",
+    "match": true,
+    "confidence": 0.7598196864128113,
+    "tier": "TIER_3_CRITICAL_UNCERTAINTY",
+    "has_detection": true,
+    "centroid": [
+      62,
+      44
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_15\\Result_15.png"
+  },
+  {
+    "test_num": 16,
+    "folder": "Result_16",
+    "gt": "meningioma",
+    "pred": "pituitary",
+    "match": false,
+    "confidence": 0.5199553370475769,
+    "tier": "TIER_3_CRITICAL_UNCERTAINTY",
+    "has_detection": true,
+    "centroid": [
+      34,
+      81
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_16\\Result_16.png"
+  },
+  {
+    "test_num": 17,
+    "folder": "Result_17",
+    "gt": "meningioma",
+    "pred": "glioma",
+    "match": false,
+    "confidence": 0.45636114478111267,
+    "tier": "TIER_3_CRITICAL_UNCERTAINTY",
+    "has_detection": true,
+    "centroid": [
+      160,
+      63
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_17\\Result_17.png"
+  },
+  {
+    "test_num": 18,
+    "folder": "Result_18",
+    "gt": "meningioma",
+    "pred": "meningioma",
+    "match": true,
+    "confidence": 0.6815008521080017,
+    "tier": "TIER_3_CRITICAL_UNCERTAINTY",
+    "has_detection": true,
+    "centroid": [
+      29,
+      72
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_18\\Result_18.png"
+  },
+  {
+    "test_num": 19,
+    "folder": "Result_19",
+    "gt": "meningioma",
+    "pred": "pituitary",
+    "match": false,
+    "confidence": 0.5259851813316345,
+    "tier": "TIER_3_CRITICAL_UNCERTAINTY",
+    "has_detection": true,
+    "centroid": [
+      108,
+      162
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_19\\Result_19.png"
+  },
+  {
+    "test_num": 20,
+    "folder": "Result_20",
+    "gt": "notumor",
+    "pred": "notumor",
+    "match": true,
+    "confidence": 0.9747428894042969,
+    "tier": "TIER_1_HIGH_CONFIDENCE",
+    "has_detection": false,
+    "centroid": [
+      null,
+      null
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_20\\Result_20.png"
+  },
+  {
+    "test_num": 21,
+    "folder": "Result_21",
+    "gt": "notumor",
+    "pred": "notumor",
+    "match": true,
+    "confidence": 0.9932962656021118,
+    "tier": "TIER_1_HIGH_CONFIDENCE",
+    "has_detection": false,
+    "centroid": [
+      null,
+      null
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_21\\Result_21.png"
+  },
+  {
+    "test_num": 22,
+    "folder": "Result_22",
+    "gt": "notumor",
+    "pred": "notumor",
+    "match": true,
+    "confidence": 0.9834820032119751,
+    "tier": "TIER_1_HIGH_CONFIDENCE",
+    "has_detection": false,
+    "centroid": [
+      null,
+      null
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_22\\Result_22.png"
+  },
+  {
+    "test_num": 23,
+    "folder": "Result_23",
+    "gt": "notumor",
+    "pred": "notumor",
+    "match": true,
+    "confidence": 0.9889150261878967,
+    "tier": "TIER_1_HIGH_CONFIDENCE",
+    "has_detection": false,
+    "centroid": [
+      null,
+      null
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_23\\Result_23.png"
+  },
+  {
+    "test_num": 24,
+    "folder": "Result_24",
+    "gt": "notumor",
+    "pred": "notumor",
+    "match": true,
+    "confidence": 0.9979002475738525,
+    "tier": "TIER_1_HIGH_CONFIDENCE",
+    "has_detection": false,
+    "centroid": [
+      null,
+      null
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_24\\Result_24.png"
+  },
+  {
+    "test_num": 25,
+    "folder": "Result_25",
+    "gt": "notumor",
+    "pred": "notumor",
+    "match": true,
+    "confidence": 0.9722736477851868,
+    "tier": "TIER_1_HIGH_CONFIDENCE",
+    "has_detection": false,
+    "centroid": [
+      null,
+      null
+    ],
+    "in_head": true,
+    "report_path": "reports\\Result_25\\Result_25.png"
+  }
+]

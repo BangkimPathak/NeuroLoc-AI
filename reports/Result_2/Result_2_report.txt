@@ -1,0 +1,43 @@
+
+================================================================================
+  NEUROLOC-XAI: CLINICAL NEURO-RADIOLOGY DIAGNOSTIC REPORT
+================================================================================
+ACCESSION ID        : PATIENT-TEST-02-PI
+IMAGE PROTOCOL      : Brain MRI (T1-Gd / Contrast-Enhanced Multi-Slice)
+FRAMEWORK           : TensorFlow 2.x Bayesian Deep Inference Engine
+STATUS              : TRIAGE_REQUIRED [TIER_3_CRITICAL_UNCERTAINTY]
+--------------------------------------------------------------------------------
+I. PRIMARY DIAGNOSTIC IMPRESSION
+--------------------------------------------------------------------------------
+  * Predicted Pathology   : PITUITARY
+  * Bayesian Posterior p  : 69.94%  (95% CI: [47.70%, 83.41%])
+  * Epistemic Uncertainty : sigma^2 = 0.01396  (Monte Carlo T=30 forward passes)
+  * Total Entropy H(y|x)  : 0.7182 nats
+  * Knowledge Info Gain I : 0.0404 nats (Mutual Information)
+
+--------------------------------------------------------------------------------
+II. AUTOMATED CLINICAL TRIAGE DECISION
+--------------------------------------------------------------------------------
+  * Triage Status         : TRIAGE_REQUIRED
+  * Confidence Level      : TIER_3_CRITICAL_UNCERTAINTY
+  * Uncertainty Flags     :
+    [!] HIGH_PREDICTIVE_ENTROPY (H = 0.7182 > 0.6000)
+    [!] LOW_PREDICTIVE_CONFIDENCE (p = 69.94% < 70.00%)
+  * Clinical Advisory     :
+    URGENT REVIEW: High model disagreement across Monte Carlo forward passes. Scan features deviate from core distribution. Mandatory evaluation by attending neuroradiologist.
+
+--------------------------------------------------------------------------------
+III. AUTOMATED NEURO-ANATOMICAL LOCALIZATION (Grad-CAM++ Salience)
+--------------------------------------------------------------------------------
+  * Laterality            : Medial / Midline
+  * Cranial Compartment   : Sellar / Suprasellar Cistern
+  * Regional Lobar Zone   : Hypophyseal Fossa (Sella Turcica)
+  * Bounding Coordinates  : [xmin=44, ymin=18, xmax=180, ymax=109]
+  * Centroid Coordinates  : (x=107, y=58)
+
+  * Radiological Narrative:
+    "Focal space-occupying lesion localized to the Sellar / Suprasellar Cistern (central midline). Characteristic sellar expansion with potential superior extension toward the optic chiasm. Classic imaging hallmark of Pituitary Neuroendocrine Tumor (PitNET) / Pituitary Macroadenoma."
+================================================================================
+  DISCLAIMER: NeuroLoc-XAI is an investigational clinical decision-support tool.
+  Final diagnosis must be validated by a certified attending Neuroradiologist.
+================================================================================

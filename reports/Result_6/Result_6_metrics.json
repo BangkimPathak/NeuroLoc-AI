@@ -1,0 +1,40 @@
+{
+  "test_case_number": 6,
+  "patient_id": "PATIENT-TEST-06-PI",
+  "image_source": "Testing/pituitary/Te-pi_6.jpg",
+  "ground_truth": "pituitary",
+  "description": "Pituitary fossa lesion",
+  "predicted_class": "pituitary",
+  "confidence": 0.959659218788147,
+  "epistemic_entropy": 0.20321263372898102,
+  "epistemic_variance": 0.0006279806839302182,
+  "triage_tier": "TIER_1_HIGH_CONFIDENCE",
+  "triage_status": "AUTONOMOUS_VERIFIED",
+  "triage_recommendation": "CONFIDENT DIAGNOSIS: Consistent Bayesian convergence across all 30 stochastic passes. Autonomous diagnostic report approved for radiology review.",
+  "has_tumor_detection": true,
+  "tumor_centroid_xy": [
+    111,
+    124
+  ],
+  "bounding_box_x1_y1_x2_y2": [
+    56,
+    16,
+    163,
+    223
+  ],
+  "in_head_guarantee_satisfied": true,
+  "anatomical_localization": {
+    "laterality": "Medial / Midline",
+    "compartment": "Sellar / Suprasellar Cistern",
+    "lobar_zone": "Hypophyseal Fossa (Sella Turcica)",
+    "norm_x": 0.4955357142857143,
+    "norm_y": 0.5535714285714286,
+    "narrative": "Focal space-occupying lesion localized to the Sellar / Suprasellar Cistern (central midline). Characteristic sellar expansion with potential superior extension toward the optic chiasm. Classic imaging hallmark of Pituitary Neuroendocrine Tumor (PitNET) / Pituitary Macroadenoma."
+  },
+  "class_probabilities": {
+    "glioma": 0.011352244764566422,
+    "meningioma": 0.02571874111890793,
+    "notumor": 0.003269798122346401,
+    "pituitary": 0.959659218788147
+  }
+}

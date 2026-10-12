@@ -1,0 +1,52 @@
+# =============================================================================
+# NeuroLoc-XAI: Git Ignore Configuration
+# =============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# Unit test & Coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating System temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Large Training Dataset (Download via `python main.py deduplicate` or Kaggle CLI)
+# The `Testing/` directory is retained to allow out-of-the-box evaluation of all 25 test cases.
+Training/
+
+# Local Scratch and Temporary directories
+scratch/
+tmp/
+*.tmp

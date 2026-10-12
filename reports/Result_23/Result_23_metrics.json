@@ -1,0 +1,32 @@
+{
+  "test_case_number": 23,
+  "patient_id": "PATIENT-TEST-23-NO",
+  "image_source": "Testing/notumor/Te-no_4.jpg",
+  "ground_truth": "notumor",
+  "description": "Normal ventricles and sulci 4",
+  "predicted_class": "notumor",
+  "confidence": 0.9889150261878967,
+  "epistemic_entropy": 0.07117500901222229,
+  "epistemic_variance": 0.00011837233614642173,
+  "triage_tier": "TIER_1_HIGH_CONFIDENCE",
+  "triage_status": "AUTONOMOUS_VERIFIED",
+  "triage_recommendation": "CONFIDENT DIAGNOSIS: Consistent Bayesian convergence across all 30 stochastic passes. Autonomous diagnostic report approved for radiology review.",
+  "has_tumor_detection": false,
+  "tumor_centroid_xy": null,
+  "bounding_box_x1_y1_x2_y2": null,
+  "in_head_guarantee_satisfied": true,
+  "anatomical_localization": {
+    "laterality": "Bilateral / Non-focal",
+    "compartment": "Diffuse / Normal Parenchyma",
+    "lobar_zone": "No focal abnormality",
+    "norm_x": 0.5,
+    "norm_y": 0.5,
+    "narrative": "No focal space-occupying lesion or abnormal hyperintense enhancement identified within the cranial vault. Parenchymal architecture within normal anatomical limits."
+  },
+  "class_probabilities": {
+    "glioma": 0.005953358020633459,
+    "meningioma": 0.0010440860642120242,
+    "notumor": 0.9889150261878967,
+    "pituitary": 0.004087525419890881
+  }
+}

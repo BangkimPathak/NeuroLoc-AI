@@ -1,0 +1,36 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="neuroloc",
+    version="1.0.0",
+    description="Explainable Multi-Class Brain Tumor Diagnosis with Cranial Localization and Epistemic Uncertainty",
+    author="NeuroLoc-XAI Contributors",
+    packages=find_packages(),
+    python_requires=">=3.10",
+    install_requires=[
+        "tensorflow>=2.11.0",
+        "numpy>=1.22.0",
+        "opencv-python>=4.6.0",
+        "scikit-learn>=1.0.0",
+        "scipy>=1.8.0",
+        "matplotlib>=3.5.0",
+        "pillow>=9.0.0",
+        "imagehash>=4.3.0",
+        "kaggle>=1.5.12",
+        "pydicom>=2.3.0",
+        "nibabel>=4.0.0",
+        "python-pptx>=1.0.0",
+    ],
+    classifiers=[
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Healthcare Industry",
+        "Intended Audience :: Science/Research",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
+        "Topic :: Scientific/Engineering :: Medical Science Apps.",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    ],
+)

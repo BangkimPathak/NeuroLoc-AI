@@ -1,0 +1,18 @@
+{
+  "train_images_analyzed": 5600,
+  "test_images_analyzed": 1600,
+  "exact_leakage_count": 372,
+  "near_leakage_count": 193,
+  "total_leakage_count": 565,
+  "leakage_rate": 0.353125,
+  "sample_leaks": [
+    {
+      "test_image": "Testing\\glioma\\Te-gl_141.jpg",
+      "test_class": "glioma",
+      "matching_train": [
+        [
+          "Training\\glioma\\Tr-gl_1344.jpg",
+          "glioma"
+        ]
+      ],
+      "hamming_distance": 
